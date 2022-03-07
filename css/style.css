@@ -98,7 +98,7 @@ body {
   display: none;
   position: absolute;
   top: 120px;
-  right: -50px;
+  right: -70px;
   display: flex; 
   flex-direction: row;
   justify-content: space-between;
@@ -106,14 +106,16 @@ body {
   min-height: 60px;
   color: #fff;
   background-color: hsl(217, 19%, 35%);
-  padding: 0 1rem;
+  padding: 0 2rem;
   border-radius: 0.5rem;
+  
 }
 
 .social-media ul {
   display: flex;
   align-items: center;
   margin-left: 0.5rem;
+  z-index: 10;
 }
 
 .social-media ul li {
@@ -136,7 +138,18 @@ body {
 .close-icon {
   position: absolute;
   top: 77px;
-  left: 80px;
+  left: 91px;
+  color: #fff !important;
+  background-color: hsl(212, 23%, 69%) !important;
+}
+
+.point {
+  position: absolute;
+  top: 31px;
+  left: 88px;
+  transform: rotate(40deg);
+  background-color: hsl(217, 19%, 35%);
+  padding: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -219,5 +232,9 @@ body {
 
   .cgc-btn-active:focus {
     background-color: #d1ac66;
+  }
+
+  .point {
+    display: none;
   }
 }
