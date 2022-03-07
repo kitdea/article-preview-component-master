@@ -95,11 +95,10 @@ body {
 }
 
 .social-media {
-  display: none;
   position: absolute;
   top: 120px;
   right: -70px;
-  display: flex; 
+  display: none; 
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -184,7 +183,7 @@ body {
   }
 
   .social-media {
-    /* display: flex;  */
+    display: none;
     flex-direction: row;
     align-items: center;
     min-height: 70px;
@@ -195,7 +194,6 @@ body {
   }
 
   .social-media {
-    display: none;
     position: unset;
     margin-top: -76px;
     width: 100%;
