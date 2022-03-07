@@ -3,5 +3,5 @@ $('.share-icon').click(function() {
 });
 
 $('.close-icon').click(function() {
-  $('.social-media').toggle();
+  $('.social-media').hide();
 });
